@@ -7,7 +7,7 @@ branches: [ main ]
 jobs:
 build-test:
 runs-on: ubuntu-latest
-steps:<br/>- name:  Baixar código do repositório
+steps:- name: Baixar código do repositório
 uses: actions/checkout@v4- name: Configurar Node.js
 uses: actions/setup-node@v4
 with:
